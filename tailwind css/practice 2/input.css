@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+.p-nav{
+    @apply cursor-pointer hover:underline
+}
+.elements{
+    @apply space-y-3 flex flex-col justify-center items-center mx-5 my-3
+}
+.boxes{
+   @apply cursor-pointer mx-4 my-4 shadow-lg
+}
+.ff{
+    @apply px-9 py-5  space-y-2 text-gray-500
+}
+@tailwind utilities;
+
+.bgimg{
+    height: 500px;
+    width: auto;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-Wallpaper-Giants-Causeway:VP4-1260x600");
+    background-size: cover;
+}

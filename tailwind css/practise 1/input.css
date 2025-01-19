@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.input{
+    @apply text-[18px] p-3 text-start bg-white h-10 w-[98%] mb-2.5 border-[0.5px] rounded-lg border-slate-400
+}
+@tailwind utilities;
